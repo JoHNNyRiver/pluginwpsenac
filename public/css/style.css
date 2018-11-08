@@ -1,0 +1,76 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.w100p {
+	display: block;
+	width: 100%;
+}
+
+label.w100p, input.w100p, select.w100p {
+	padding: 10px 5px;
+	margin-top: 10px;
+}
+
+label.w100p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.btn {
+	display: block;
+	background: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.terror-hora {
+	width: 90%;
+	margin: 0 auto;
+	height: 250px;
+	background: #000;
+	text-align: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.terror-hora img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .2;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.terror-hora h1 {
+	color: #fff;
+	font-size: 60px;
+	letter-spacing: 2px;
+	font-family: 'Spicy Rice', cursive;
+}
+
+.terror-hora h3 {
+	color: #fff;
+	font-family: 'Spicy Rice', cursive;
+	font-style: italic;
+	margin-top: 5px;
+}
